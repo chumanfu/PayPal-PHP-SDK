@@ -17,8 +17,3 @@ script:
 - mkdir build
 - mkdir build/coverage
 - vendor/bin/phpunit
-notifications:
-  email:
-    recipients:
-    - DL-PP-PHP-SDK@paypal.com
-    on_success: change
